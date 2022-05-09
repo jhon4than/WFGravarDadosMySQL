@@ -1,0 +1,11 @@
+create database db_agenda;
+
+use db_agenda;
+
+create table contato (
+	id int auto_increment,
+	nome varchar(150),
+	email varchar(150),
+	telefone varchar(12),
+	primary key(id)
+);
