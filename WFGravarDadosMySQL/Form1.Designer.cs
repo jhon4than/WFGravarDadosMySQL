@@ -31,9 +31,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textNome = new System.Windows.Forms.TextBox();
-            this.textTelefone = new System.Windows.Forms.TextBox();
-            this.textEmail = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtTelefone = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -65,26 +65,26 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "E-mail";
             // 
-            // textNome
+            // txtNome
             // 
-            this.textNome.Location = new System.Drawing.Point(23, 41);
-            this.textNome.Name = "textNome";
-            this.textNome.Size = new System.Drawing.Size(235, 23);
-            this.textNome.TabIndex = 3;
+            this.txtNome.Location = new System.Drawing.Point(23, 41);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(235, 23);
+            this.txtNome.TabIndex = 3;
             // 
-            // textTelefone
+            // txtTelefone
             // 
-            this.textTelefone.Location = new System.Drawing.Point(23, 98);
-            this.textTelefone.Name = "textTelefone";
-            this.textTelefone.Size = new System.Drawing.Size(235, 23);
-            this.textTelefone.TabIndex = 4;
+            this.txtTelefone.Location = new System.Drawing.Point(23, 98);
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(235, 23);
+            this.txtTelefone.TabIndex = 4;
             // 
-            // textEmail
+            // txtEmail
             // 
-            this.textEmail.Location = new System.Drawing.Point(23, 155);
-            this.textEmail.Name = "textEmail";
-            this.textEmail.Size = new System.Drawing.Size(235, 23);
-            this.textEmail.TabIndex = 5;
+            this.txtEmail.Location = new System.Drawing.Point(23, 155);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(235, 23);
+            this.txtEmail.TabIndex = 5;
             // 
             // button1
             // 
@@ -102,14 +102,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(279, 230);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textEmail);
-            this.Controls.Add(this.textTelefone);
-            this.Controls.Add(this.textNome);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtTelefone);
+            this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Formulário de Informação";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -120,9 +120,9 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private TextBox textNome;
-        private TextBox textTelefone;
-        private TextBox textEmail;
+        private TextBox txtNome;
+        private TextBox txtTelefone;
+        private TextBox txtEmail;
         private Button button1;
     }
 }
